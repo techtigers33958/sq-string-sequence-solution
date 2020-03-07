@@ -42,6 +42,7 @@ input.onGesture(Gesture.ScreenUp, function () {
 input.onButtonPressed(Button.AB, function () {
     basic.showString(string)
 })
+// Reset
 input.onButtonPressed(Button.B, function () {
     string = ""
     basic.showLeds(`
